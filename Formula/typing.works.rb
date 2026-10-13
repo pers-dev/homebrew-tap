@@ -2,28 +2,28 @@
 class TypingWorks < Formula
   desc "Typing practice from typing.works in your terminal (Korean & English, ranked)"
   homepage "https://typing.works"
-  version "0.3.0-beta.5"
+  version "0.3.0-beta.6"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-darwin-arm64.tar.gz"
-      sha256 "b18aad97af3da89fc98be9cf3074d15a76649b2f05e98a0fa7c51761010a991f"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.6/typingworks-0.3.0-beta.6-darwin-arm64.tar.gz"
+      sha256 "6eb61eca85f4abec36c923b59d3e01bff32cfe42302c271bf10aae9c82478fb4"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-darwin-x64.tar.gz"
-      sha256 "18eeb1b39e2f7768d2fca04e755028ac05529bfeaa8e98340ab9051c9f3fe6ca"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.6/typingworks-0.3.0-beta.6-darwin-x64.tar.gz"
+      sha256 "4298dfd8ba212fe3c0a4ebb7cf9aca39a7d8eb5e36fffafaac6178c6e6e5b215"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-linux-arm64.tar.gz"
-      sha256 "91eb61c4a03215e37e6dc5f3b5482e67e78e4c2caa194c4207db9200a66fba4f"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.6/typingworks-0.3.0-beta.6-linux-arm64.tar.gz"
+      sha256 "0619929317fca723b65cfbd2b66f90d75d5839cf0588242ca82cff9c24832230"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-linux-x64.tar.gz"
-      sha256 "36df03989fe7eed733d98e4ea7826e8120fa7f6118db3bca85de3d610534f6fb"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.6/typingworks-0.3.0-beta.6-linux-x64.tar.gz"
+      sha256 "717bb4cc3b8426d74657e124936e9426db724c196ba01e893003777a3df472f4"
     end
   end
 
