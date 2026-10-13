@@ -2,28 +2,28 @@
 class TypingWorks < Formula
   desc "Typing practice from typing.works in your terminal (Korean & English, ranked)"
   homepage "https://typing.works"
-  version "0.3.0-beta.3"
+  version "0.3.0-beta.4"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.3/typingworks-0.3.0-beta.3-darwin-arm64.tar.gz"
-      sha256 "a52ac3c3a1e811ce3630df93570fd4b5705558e3a6d9ff14fe58efea4cea9fb9"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-darwin-arm64.tar.gz"
+      sha256 "50a3f52826e95cc36c75a4f8d7dbc7fa429a417f9d660dcbc5c9975b164d00ee"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.3/typingworks-0.3.0-beta.3-darwin-x64.tar.gz"
-      sha256 "7f3944d7904845bf7dd7e795cb44542eba28eccdbc7f86935bdae95d594eb45a"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-darwin-x64.tar.gz"
+      sha256 "f38c6e0959fa7873622b87c2e8ee53eed9759f42f6532c8280a62de0a707015d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.3/typingworks-0.3.0-beta.3-linux-arm64.tar.gz"
-      sha256 "bba9180a65646464189580b6592011ca57069260967ffed9dcf4bd0f280868b3"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-linux-arm64.tar.gz"
+      sha256 "d4be99e9e4c7e4f3e826b0914c459e8761e10a7f928a4c03ce116eea79bc1cd8"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.3/typingworks-0.3.0-beta.3-linux-x64.tar.gz"
-      sha256 "8263f145a77c93528e478192c06896c7908591c7f13d9fecbe4f53c0c362237b"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-linux-x64.tar.gz"
+      sha256 "e8e314b243671b5ae6bfe951063782371c62f1f15fa8f854f6027b5f877cdab0"
     end
   end
 
