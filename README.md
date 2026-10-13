@@ -1,7 +1,5 @@
 # pers-dev/tap
 
-```sh
-brew install pers-dev/tap/typing.works
-```
+준비 중입니다. · Coming soon.
 
-typing.works — terminal. https://typing.works
+https://typing.works
