@@ -2,28 +2,28 @@
 class TypingWorks < Formula
   desc "Typing practice from typing.works in your terminal (Korean & English, ranked)"
   homepage "https://typing.works"
-  version "0.3.0-beta.4"
+  version "0.3.0-beta.5"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-darwin-arm64.tar.gz"
-      sha256 "50a3f52826e95cc36c75a4f8d7dbc7fa429a417f9d660dcbc5c9975b164d00ee"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-darwin-arm64.tar.gz"
+      sha256 "b18aad97af3da89fc98be9cf3074d15a76649b2f05e98a0fa7c51761010a991f"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-darwin-x64.tar.gz"
-      sha256 "f38c6e0959fa7873622b87c2e8ee53eed9759f42f6532c8280a62de0a707015d"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-darwin-x64.tar.gz"
+      sha256 "18eeb1b39e2f7768d2fca04e755028ac05529bfeaa8e98340ab9051c9f3fe6ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-linux-arm64.tar.gz"
-      sha256 "d4be99e9e4c7e4f3e826b0914c459e8761e10a7f928a4c03ce116eea79bc1cd8"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-linux-arm64.tar.gz"
+      sha256 "91eb61c4a03215e37e6dc5f3b5482e67e78e4c2caa194c4207db9200a66fba4f"
     end
     on_intel do
-      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.4/typingworks-0.3.0-beta.4-linux-x64.tar.gz"
-      sha256 "e8e314b243671b5ae6bfe951063782371c62f1f15fa8f854f6027b5f877cdab0"
+      url "https://github.com/pers-dev/typing.works/releases/download/v0.3.0-beta.5/typingworks-0.3.0-beta.5-linux-x64.tar.gz"
+      sha256 "36df03989fe7eed733d98e4ea7826e8120fa7f6118db3bca85de3d610534f6fb"
     end
   end
 
