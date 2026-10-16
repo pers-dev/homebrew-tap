@@ -3,9 +3,9 @@
 class TypingWorks < Formula
   desc "Typing practice from typing.works in your terminal (Korean & English, ranked)"
   homepage "https://typing.works"
-  url "https://registry.npmjs.org/typing.works/-/typing.works-0.3.0-beta.17.tgz"
-  version "0.3.0-beta.17"
-  sha256 "c7699d6e9cae744c3945c90f5eda246302d6503354c378ed3c1498a2b662af1a"
+  url "https://registry.npmjs.org/typing.works/-/typing.works-0.3.0-beta.18.tgz"
+  version "0.3.0-beta.18"
+  sha256 "462288aba81c2ee188b6b24e59b7279f842879fde1dadc84edfd5431383c2b1d"
   license :cannot_represent
 
   depends_on "curl" => :recommended unless OS.mac?
